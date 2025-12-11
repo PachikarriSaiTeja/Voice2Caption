@@ -8,7 +8,7 @@ SAMPLE_RATE = 16000
 CHUNK_DURATION = 5        
 
 print("⏳ Loading Whisper model (small)...")
-model = whisper.load_model("small")
+model = whisper.load_model("tiny")
 print("✅ Whisper loaded.\n")
 
 def record_audio(duration=CHUNK_DURATION):
